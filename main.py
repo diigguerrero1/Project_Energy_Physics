@@ -27,6 +27,6 @@ if __name__ == "__main__":
     msj_salvacion = "¡Te salvaste!"
     msj_muerte = "¡Game Over!"
     if altura.altura < 5:
-        print(f'Si te estrellas a esta velocidad, tendras la energía potencial cómo si cayeras de un edificio de {altura.altura} metros contra el piso: {msj_salvacion}')
+        print(f'Si te estrellas a {velocidad} km/h, tendras una energia potencial de {round(energia.energia_cinetica, 2)} Julios. Esto equivale a caer de un edificio de {altura.altura} metros de altura: {msj_salvacion}')
     else:
-        print(f'Si te estrellas a esta velocidad, tendras la energía potencial cómo si cayeras de un edificio de {altura.altura} metros contra el piso: {msj_muerte}')
+        print(f'Si te estrellas a {velocidad} km/h, tendras una energia potencial de {round(energia.energia_cinetica, 2)} Julios. Esto equivale a caer de un edificio de {altura.altura} metros de altura: {msj_muerte}')
