@@ -1,0 +1,8 @@
+dict_medidas:
+  km/h:
+    ['km/h',
+      conversion_m: 
+        1000,
+      conversion_s:
+        3600,
+    ]
